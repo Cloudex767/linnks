@@ -31,12 +31,13 @@ def main():
         st.write("---")
         st.button("Veja minhas artes - Em breve", use_container_width=True)
         st.link_button("Instagram","https://www.instagram.com/rianvinicius_/", use_container_width=True)
+    st.link_button("Instagram dedicado a aviação", "https://www.instagram.com/art_aviation14/", use_container_width=True)
     st.write("---")
     st.write("Acesse meu currículum")
-    file_path = 'curriculo-rian.pdf'
-    with open(file_path, 'rb') as file:
-        file_data = file.read()
-    st.download_button(label="Baixar PDF",data=file_data,file_name='curriculo-rian.pdf',mime='./', use_container_width=True)
+    #file_path = 'curriculo-rian.pdf'
+    #with open(file_path, 'rb') as file:
+        #file_data = file.read()
+    #st.download_button(label="Baixar PDF",data=file_data,file_name='curriculo-rian.pdf',mime='./', use_container_width=True)
     st.link_button("Contato direto","https://api.whatsapp.com/send?phone=5532991458306", use_container_width=True)
     st.write("")
     col4, col5, col6 = st.columns([1,1,1])
