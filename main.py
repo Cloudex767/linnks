@@ -2,7 +2,7 @@
 import streamlit as st 
 from PIL import Image
 
-st.set_page_config(layout="wide", page_icon="✈️", page_title="Rian Vinícius")
+st.set_page_config( page_icon="✈️", page_title="Rian Vinícius")
 
 def main():
     col1, col2, col3 = st.columns([1,1,1])
